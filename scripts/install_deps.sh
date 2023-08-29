@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DEPS_ALPINE=(
     build-base
     gmp-dev
@@ -28,7 +30,6 @@ DEPS_DEBIAN=(
     mtools 
     qemu-system-x86 
     python3-pip 
-    python3-scons
 )
 
 DEPS_FEDORA=(
