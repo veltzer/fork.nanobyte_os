@@ -112,13 +112,13 @@ echo ""
 echo " $ $PACKAGE_INSTALL ${DEPS[@]}"
 echo ""
 
-read -p "Continue (y/n)?" choice
-case "$choice" in 
-  y|Y ) ;;
-  * ) echo "Exiting..."
-        exit 0
-        ;;
-esac
+# read -p "Continue (y/n)?" choice
+# case "$choice" in 
+#   y|Y ) ;;
+#   * ) echo "Exiting..."
+#         exit 0
+#         ;;
+# esac
 
 $PACKAGE_UPDATE
 $PACKAGE_INSTALL ${DEPS[@]}
