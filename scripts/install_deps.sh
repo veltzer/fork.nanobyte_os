@@ -30,6 +30,7 @@ DEPS_DEBIAN=(
     mtools 
     qemu-system-x86 
     python3-pip 
+    libparted-dev
 )
 
 DEPS_FEDORA=(
