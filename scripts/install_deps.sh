@@ -31,6 +31,7 @@ DEPS_DEBIAN=(
     qemu-system-x86 
     python3-pip 
     libparted-dev
+    guestmount
 )
 
 DEPS_FEDORA=(

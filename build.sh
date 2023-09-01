@@ -11,3 +11,5 @@ then
 	scons toolchain
 	touch "toolchain.stamp"
 fi
+pip install -r requirements.txt
+scons
