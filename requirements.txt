@@ -1,4 +1,0 @@
-sh
-pyparted
-python-parted
-scons
